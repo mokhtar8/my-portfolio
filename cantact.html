@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="flex flex-col gap-32 items-center justify-center bg-blue-200">
+    <a
+      class="text-gray-700 font-medium text-2xl hover:text-gray-400"
+      href="index.html"
+      >Home</a
+    >
+    <section class="flex flex-col max-sm:items-center" >
+    
+      <div>
+          <div>
+        <p class="text-2xl font-medium mb-5">CANTACT ME:</p>
+      </div>
+        <div class="w-96 flex items-center gap-5  max-sm:w-72 ">
+          <label for="name">name:</label>
+          <input
+            class="w-full h-9 focus:outline-gray-400"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter name"
+          />
+        </div>
+        <div class="w-96 flex items-center gap-5 my-2 max-sm:w-72">
+          <label for="email">email:</label>
+          <input
+            class="w-full h-9 focus:outline-gray-400"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter email"
+            required
+          />
+        </div>
+        <div class="w-md flex items-center gap-5 max-sm:w-72">
+          <label for="massage">massage:</label>
+          <input
+            class="w-full h-12 focus:outline-gray-400"
+            type="text"
+            name="massage"
+            id="massage"
+            placeholder="enter massage"
+          />
+        </div>
+        <div>
+          <button
+            class="cursor-pointer hover:bg-emerald-300 mt-5 border-2 border-b-cyan-500 bg-cyan-100 w-56 h-10 rounded-2xl"
+          >
+            enter
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
